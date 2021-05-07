@@ -1,4 +1,8 @@
 .gallery .ant-image {
-    margin: 5px;
+    margin: 2px 5px;
     font-size: 2rem;
+}
+
+.ant-image-preview-mask {
+    background-color: #000000d1;
 }

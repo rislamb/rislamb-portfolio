@@ -4,7 +4,7 @@ import { Link, Route, Switch } from 'react-router-dom';
 import { Header } from './components/Header';
 import 'antd/dist/antd.css';
 import { Gallery } from './components/Gallery';
-import { illos } from './components/allImages';
+import { concepts, illos } from './components/allImages';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Gallery arts={illos} />
         </Route>
         <Route exact path="/concept">
-          <Gallery arts={illos} />
+          <Gallery arts={concepts} />
         </Route>
       </Switch>
     </div>

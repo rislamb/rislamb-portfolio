@@ -43,3 +43,16 @@
   font-size: 1.5rem;
   margin: 8px 15px;
 }
+
+/* really hacky stuff to get the link clickable on the whole tab do not look */
+.header .navbar .ant-tabs-tab {
+  padding: 0;
+}
+
+.header .navbar .ant-tabs-tab-btn {
+  padding: 12px 0;
+}
+
+.header .navbar .ant-tabs-tab-btn > a {
+  padding: 12px 0;
+}

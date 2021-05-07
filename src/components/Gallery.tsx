@@ -10,7 +10,7 @@ export const Gallery = ({ arts }: { arts: artList }) => {
         {arts.map(({ name, ext }) => (
           <Image
             key={name}
-            width={300}
+            width={400}
             src={require(`./images/${name}-crop.${ext}`).default}
             preview={{
               src: require(`./images/${name}.${ext}`).default,

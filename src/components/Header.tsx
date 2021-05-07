@@ -3,11 +3,14 @@ import './Header.css';
 import { Tabs } from 'antd';
 import { MailFilled, TwitterCircleFilled } from '@ant-design/icons';
 import tblr from './images/tblr-logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const { TabPane } = Tabs;
 
 export const Header = () => {
+  let location = useLocation();
+  console.log(location.pathname)
+  
   return (
     <div className="header">
       <img
@@ -18,9 +21,9 @@ export const Header = () => {
       <div className="header-details">
         <div className="navbar">
           <div className="border-extend" />
-          <Tabs defaultActiveKey="Illustration">
-            <TabPane tab={<Link to="/">Illustration</Link>} key="Illustration" />
-            <TabPane tab={<Link to="/concept">Concept</Link>} key="Concept" />
+          <Tabs defaultActiveKey={location.pathname}>
+            <TabPane tab={<Link to="/">Illustration</Link>} key="/" />
+            <TabPane tab={<Link to="/concept">Concept</Link>} key="/concept" />
           </Tabs>
         </div>
         <div className="socials">
