@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header > .logo {
+  margin: 10px;
+}
+
+.header .header-details {
+  margin-top: 20px;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.header .header-details > .navbar {
+  display: flex;
+  align-items: stretch;
+}
+
+.header .border-extend {
+  flex-grow: 1;
+  border-bottom: 1px solid #303030;
+  margin-bottom: 16px;
+}
+
+.header .navbar .ant-tabs {
+  width: 200px;
+}
+
+.header > .header-details > .socials {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 45px;
+}
+
+.header > .header-details > .socials svg,
+.header > .header-details > .socials img {
+  color: white;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  margin: 8px 15px;
+}

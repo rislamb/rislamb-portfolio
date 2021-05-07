@@ -1,33 +1,23 @@
 import React from 'react';
 import './App.css';
 import { Link, Route, Switch } from 'react-router-dom';
+import { Header } from './components/Header';
+import 'antd/dist/antd.css';
+import { Gallery } from './components/Gallery';
+import { illos } from './components/allImages';
 
 function App() {
   return (
     <div className="App">
-      <div>
-            <nav>
-              <ul id="navigation">
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="/about">About</Link>
-                </li>
-                <li>
-                <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-            <Switch>
-            <Route exact path="/">
-              <div>hi</div>
-            </Route>
-            <Route path="/about">
-              <div>about</div>
-            </Route>
-          </Switch>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Gallery arts={illos} />
+        </Route>
+        <Route exact path="/concept">
+          <Gallery arts={illos} />
+        </Route>
+      </Switch>
     </div>
   );
 }
