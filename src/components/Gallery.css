@@ -1,8 +1,27 @@
-.gallery .ant-image {
-    margin: 2px 5px;
-    font-size: 2rem;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fade-in-image {
+  margin: 5px;
+  display: flex;
+  font-size: 2rem;
+  background-color: #252525;
 }
 
 .ant-image-preview-mask {
-    background-color: #000000d1;
+  background-color: #000000d1;
+}
+
+.fade-in-image  .img-loaded {
+    opacity: 1;
+    transition: opacity .3s ease-in;
+   -moz-transition: opacity .3s ease-in;
+   -webkit-transition: opacity .3s ease-in;
+}
+
+.fade-in-image .img-not-loaded {
+    opacity: 0;
 }
