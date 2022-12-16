@@ -48,7 +48,7 @@
   margin: 8px 15px;
 }
 .header .tblr-icon {
-  opacity: 81%;
+  opacity: .81;
 }
 
 /* really hacky stuff to get the link clickable on the whole tab do not look */
