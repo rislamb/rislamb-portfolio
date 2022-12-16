@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rislamb-portfolio/static/css/main.773f15b5.chunk.css",
+    "main.css": "/rislamb-portfolio/static/css/main.ff278d4f.chunk.css",
     "main.js": "/rislamb-portfolio/static/js/main.1b87b6cb.chunk.js",
     "main.js.map": "/rislamb-portfolio/static/js/main.1b87b6cb.chunk.js.map",
     "runtime-main.js": "/rislamb-portfolio/static/js/runtime-main.49d95633.js",
@@ -12,7 +12,7 @@
     "static/js/3.4e2099b0.chunk.js.map": "/rislamb-portfolio/static/js/3.4e2099b0.chunk.js.map",
     "index.html": "/rislamb-portfolio/index.html",
     "static/css/2.d4788fc2.chunk.css.map": "/rislamb-portfolio/static/css/2.d4788fc2.chunk.css.map",
-    "static/css/main.773f15b5.chunk.css.map": "/rislamb-portfolio/static/css/main.773f15b5.chunk.css.map",
+    "static/css/main.ff278d4f.chunk.css.map": "/rislamb-portfolio/static/css/main.ff278d4f.chunk.css.map",
     "static/js/2.c13f3d34.chunk.js.LICENSE.txt": "/rislamb-portfolio/static/js/2.c13f3d34.chunk.js.LICENSE.txt",
     "static/media/19-5-16-crop.png": "/rislamb-portfolio/static/media/19-5-16-crop.ec003bc3.png",
     "static/media/19-5-16.png": "/rislamb-portfolio/static/media/19-5-16.8851a66e.png",
@@ -55,7 +55,7 @@
     "static/js/runtime-main.49d95633.js",
     "static/css/2.d4788fc2.chunk.css",
     "static/js/2.c13f3d34.chunk.js",
-    "static/css/main.773f15b5.chunk.css",
+    "static/css/main.ff278d4f.chunk.css",
     "static/js/main.1b87b6cb.chunk.js"
   ]
 }
