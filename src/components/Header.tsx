@@ -13,11 +13,12 @@ export const Header = () => {
   
   return (
     <div className="header">
-      <img
+      {/* <img
         className="logo"
         height="180px"
         src="https://img1.pnghut.com/10/14/23/gBKVq6muNP/logo-text-snake-medicine-symbol.jpg"
-      />
+      /> */}
+      <h1 className="logo">RISLAMB</h1>
       <div className="header-details">
         <div className="navbar">
           <div className="border-extend" />
@@ -27,7 +28,7 @@ export const Header = () => {
           </Tabs>
         </div>
         <div className="socials">
-          <a href="https://iris-of-the-lambs.tumblr.com/">
+          <a className="tblr-icon" href="https://iris-of-the-lambs.tumblr.com/">
             <img src={tblr} />
           </a>
           <a href="https://twitter.com/ris_lamb">

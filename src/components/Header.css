@@ -1,12 +1,16 @@
 .header {
   display: flex;
   width: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .header > .logo {
-  margin: 10px;
+  margin: 10px 20px;
+  color: #e4e4e4;
+  font-style: oblique;
+  font-size: 4em;
 }
 
 .header .header-details {
@@ -38,10 +42,13 @@
 
 .header > .header-details > .socials svg,
 .header > .header-details > .socials img {
-  color: white;
+  color: #e4e4e4;
   height: 1.5rem;
   font-size: 1.5rem;
   margin: 8px 15px;
+}
+.header .tblr-icon {
+  opacity: 81%;
 }
 
 /* really hacky stuff to get the link clickable on the whole tab do not look */
