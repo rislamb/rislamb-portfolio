@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/rislamb-portfolio/static/css/main.ff278d4f.chunk.css",
-    "main.js": "/rislamb-portfolio/static/js/main.c1e256df.chunk.js",
-    "main.js.map": "/rislamb-portfolio/static/js/main.c1e256df.chunk.js.map",
-    "runtime-main.js": "/rislamb-portfolio/static/js/runtime-main.852ab8ba.js",
-    "runtime-main.js.map": "/rislamb-portfolio/static/js/runtime-main.852ab8ba.js.map",
+    "main.js": "/rislamb-portfolio/static/js/main.428ff3cf.chunk.js",
+    "main.js.map": "/rislamb-portfolio/static/js/main.428ff3cf.chunk.js.map",
+    "runtime-main.js": "/rislamb-portfolio/static/js/runtime-main.c661ab8e.js",
+    "runtime-main.js.map": "/rislamb-portfolio/static/js/runtime-main.c661ab8e.js.map",
     "static/css/2.d4788fc2.chunk.css": "/rislamb-portfolio/static/css/2.d4788fc2.chunk.css",
-    "static/js/2.a31ca7c7.chunk.js": "/rislamb-portfolio/static/js/2.a31ca7c7.chunk.js",
-    "static/js/2.a31ca7c7.chunk.js.map": "/rislamb-portfolio/static/js/2.a31ca7c7.chunk.js.map",
-    "static/js/3.684253c1.chunk.js": "/rislamb-portfolio/static/js/3.684253c1.chunk.js",
-    "static/js/3.684253c1.chunk.js.map": "/rislamb-portfolio/static/js/3.684253c1.chunk.js.map",
+    "static/js/2.6a11b33b.chunk.js": "/rislamb-portfolio/static/js/2.6a11b33b.chunk.js",
+    "static/js/2.6a11b33b.chunk.js.map": "/rislamb-portfolio/static/js/2.6a11b33b.chunk.js.map",
+    "static/js/3.45983fba.chunk.js": "/rislamb-portfolio/static/js/3.45983fba.chunk.js",
+    "static/js/3.45983fba.chunk.js.map": "/rislamb-portfolio/static/js/3.45983fba.chunk.js.map",
     "index.html": "/rislamb-portfolio/index.html",
     "static/css/2.d4788fc2.chunk.css.map": "/rislamb-portfolio/static/css/2.d4788fc2.chunk.css.map",
     "static/css/main.ff278d4f.chunk.css.map": "/rislamb-portfolio/static/css/main.ff278d4f.chunk.css.map",
-    "static/js/2.a31ca7c7.chunk.js.LICENSE.txt": "/rislamb-portfolio/static/js/2.a31ca7c7.chunk.js.LICENSE.txt",
+    "static/js/2.6a11b33b.chunk.js.LICENSE.txt": "/rislamb-portfolio/static/js/2.6a11b33b.chunk.js.LICENSE.txt",
     "static/media/19-5-16-crop.png": "/rislamb-portfolio/static/media/19-5-16-crop.ec003bc3.png",
     "static/media/19-5-16.png": "/rislamb-portfolio/static/media/19-5-16.8851a66e.png",
     "static/media/19-7-17-crop.jpg": "/rislamb-portfolio/static/media/19-7-17-crop.46f127af.jpg",
@@ -42,6 +42,10 @@
     "static/media/22-9-19.png": "/rislamb-portfolio/static/media/22-9-19.cc035acc.png",
     "static/media/23-8-22-crop.png": "/rislamb-portfolio/static/media/23-8-22-crop.bb1cd9a5.png",
     "static/media/23-8-22.png": "/rislamb-portfolio/static/media/23-8-22.936945de.png",
+    "static/media/24-10-13-crop.png": "/rislamb-portfolio/static/media/24-10-13-crop.84162fca.png",
+    "static/media/24-10-13.png": "/rislamb-portfolio/static/media/24-10-13.7c321dc4.png",
+    "static/media/24-8-4-crop.png": "/rislamb-portfolio/static/media/24-8-4-crop.2344043c.png",
+    "static/media/24-8-4.png": "/rislamb-portfolio/static/media/24-8-4.dce43676.png",
     "static/media/con-19-4-25-crop.jpg": "/rislamb-portfolio/static/media/con-19-4-25-crop.2b3e0556.jpg",
     "static/media/con-19-4-25.jpg": "/rislamb-portfolio/static/media/con-19-4-25.cb87425f.jpg",
     "static/media/con-20-12-20-crop.png": "/rislamb-portfolio/static/media/con-20-12-20-crop.e58937ac.png",
@@ -58,10 +62,10 @@
     "static/media/con-23-2-25.png": "/rislamb-portfolio/static/media/con-23-2-25.ed1b76ab.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.852ab8ba.js",
+    "static/js/runtime-main.c661ab8e.js",
     "static/css/2.d4788fc2.chunk.css",
-    "static/js/2.a31ca7c7.chunk.js",
+    "static/js/2.6a11b33b.chunk.js",
     "static/css/main.ff278d4f.chunk.css",
-    "static/js/main.c1e256df.chunk.js"
+    "static/js/main.428ff3cf.chunk.js"
   ]
 }
