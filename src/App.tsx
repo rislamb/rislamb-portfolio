@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Header } from './components/Header';
 import 'antd/dist/antd.css';
 import { Gallery } from './components/Gallery';
